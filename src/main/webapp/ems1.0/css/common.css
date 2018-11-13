@@ -14,18 +14,19 @@ html {
 	_height: 100%;
 	-webkit-text-size-adjust: none;
 	-ms-text-size-adjust: none;
-	_filter: expression(document.execCommand("BackgroundImageCache", false, true));
+	/*_filter: expression(document.execCommand("BackgroundImageCache", false, true));*/
 }
 
 body {
 	_width: 100%;
 	_height: 100%;
 	min-width: 1000px;
-	_width: expression(document.body.clientWidth <= 1000 ? "1000px": "auto");
+	/*_width: expression(document.body.clientWidth <= 1000 ? "1000px": "auto");
+	*/
 	font: 12px tahoma, Arial, Verdana, sans-serif;
 	color: #666666;
 	background-color: #ffffff;
-	_background-image: url(about: blank);
+	/*_background-image: url(about: blank);*/
 	_background-attachment: fixed;
 }
 a {
@@ -113,14 +114,16 @@ textarea {
 	position: fixed;
 	_position: absolute;
 	top: 0px;
-	_top: expression(documentElement.scrollTop + documentElement.clientHeight - this.offsetHeight);
+	/*_top: expression(documentElement.scrollTop + documentElement.clientHeight - this.offsetHeight);
+	*/
 	left: 0px;
 	z-index: 99;
 	filter: alpha(opacity = 30);
 	-moz-opacity: 0.30;
 	opacity: 0.30;
 	zoom: 1;
-	background: url(../img/dialog_overlay.png);
+	/*background: url(../img/dialog_overlay.png);
+*/
 }
 
 /* ---------- Form ---------- */
@@ -615,7 +618,8 @@ div.xxDialog {
 	position: fixed;
 	_position: absolute;
 	top: 25%;
-	_top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(25 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + "px");
+	/*_top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(25 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + "px");
+	*/
 	left: 50%;
 	z-index: 100;
 	overflow: hidden;
@@ -698,7 +702,8 @@ div.xxMessage {
 	position: fixed;
 	_position: absolute;
 	top: 25%;
-	_top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(25 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + "px");
+	/*_top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(25 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + "px");
+	*/
 	left: 50%;
 	z-index: 100;
 	overflow: hidden;
@@ -822,7 +827,8 @@ span.loadingIcon {
 	display: -moz-inline-stack;
 	zoom: 1;
 	*display: inline;
-	background: url(../img/loading_icon.gif) center no-repeat;
+	/*background: url(../img/loading_icon.gif) center no-repeat;
+*/
 }
 
 span.loadingBar {
@@ -833,7 +839,7 @@ span.loadingBar {
 	display: -moz-inline-stack;
 	zoom: 1;
 	*display: inline;
-	background: url(../img/loading_bar.gif) center no-repeat;
+	/*background: url(../img/loading_bar.gif) center no-repeat;*/
 }
 
 /* ---------- Pagination ---------- */
@@ -1036,7 +1042,7 @@ ul.tab {
 	height: 30px;
 	padding-left: 160px;
 	margin: 10px 0px 5px 0px;
-	background: url(../img/input.gif) 0px 0px repeat-x;
+	/*background: url(../img/input.gif) 0px 0px repeat-x;*/
 }
 
 ul.tab li {
@@ -1054,7 +1060,7 @@ ul.tab input {
 	outline: none;
 	blr: expression(this.hideFocus = true);
 	border: none;
-	background: url(../img/input.gif) 0px -30px no-repeat;
+	/*background: url(../img/input.gif) 0px -30px no-repeat;*/
 }
 
 ul.tab input:hover {
@@ -1064,7 +1070,7 @@ ul.tab input:hover {
 ul.tab input.current {
 	color: #2b2b2b;
 	font-weight: bold;
-	background: url(../img/input.gif) -120px -30px no-repeat;
+	/*background: url(../img/input.gif) -120px -30px no-repeat;*/
 }
 
 span.tips {
