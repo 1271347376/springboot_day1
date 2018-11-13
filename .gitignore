@@ -10,6 +10,7 @@ Desktop.ini
 *.egg-info
 target
 *.iml
+.idea
 
 # My configurations:
 db.ini
